@@ -13,7 +13,7 @@
 ## What building elements are you interested in?
 	- Beams, Columns, Walls, Slabs
 ## What (use cases) need to be done before you can start your use case?
-	- Architectual IFC model and Cost Estimation
+	- Architectual IFC model
 ## What is the input data for your use case?
 	- Load Data, Areas and Volumes, Surfaces, Dimensions, Geotechnical properties
 ## What other use cases are waiting for your use case to complete?
