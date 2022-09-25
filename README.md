@@ -1,5 +1,5 @@
 # Advanced BIM - Group 20
-##Describe the use case you have chosen
+## Describe the use case you have chosen
 	◦ We have chosen the Structure use case which will focus on searching through the BIM model for the structural elements, to make sure the building conditions and specifications are met, and to perform a structural analysis of the model  
 • Who is the use case for?
 	◦ The use case is a consultant tool for architects, engineers and contractors
