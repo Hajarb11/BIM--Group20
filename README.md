@@ -4,8 +4,7 @@
 #### 2. Hajar Benjdya
 #### 3. Eloise Catherine Helene Birkeland
 
-
-## Question 2 A markdown file that describes:
+## Question 2: Markdown File describing our Use Case
 
 ### Describe the use case you have chosen
 	- We have chosen the Structure use case which will focus on searching through the BIM model for the structural elements, to make sure the building conditions and specifications are met, and to perform a structural analysis of the model  
