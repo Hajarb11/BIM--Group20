@@ -1,8 +1,8 @@
 # Advanced BIM - Group 20
-## Group Member
-### 1. Umair Abid Mughal
-### 2. Hajar Benjdya
-### 3. Eloise Catherine Helene Birkeland
+## Group Members
+#### 1. Umair Abid Mughal
+#### 2. Hajar Benjdya
+#### 3. Eloise Catherine Helene Birkeland
 
 
 ## Markdown File
