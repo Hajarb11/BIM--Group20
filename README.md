@@ -18,6 +18,12 @@ To address this usecase, a working knowledge of Structural Analysis and Design i
 ### What IFC concepts did you use in your script (would you use in your script)
 Finding lengths of various Ifc element arrays, calling a Ifc file to extract information from it, using the called Ifc file to extract element attributes and element properties such as lengths. Using the Ifc file to display the element count for various structural elements and also displaying their attributes. Also, getting location of various elements will be required to enable them to be used with an FEM software. 
 
+To elaborate: 
+1. .by_type() functions were access elements in the model and len() was used to count the number of elements in each array
+2. .IsDefined, IfcRelDefinesByProperties, IfcPropertySet is used to access property sets associated with each element in the model
+3. .IsDefined, RelatingPropertyDefinition.HasProperties was used to access specific properties such as lengths, width etc. for beam elements
+4. IfcStore is used to access information of the BIM project currently the user is working with 
+
 	
 ### What disciplinary analysis does it require?
 Structural Analysis and Code Validation
@@ -32,4 +38,4 @@ Architectual IFC model
 Dimensions of the structural elements, Material usage of various elements, Location of the structural elements, Load Data such as wind, gravity, seismic and live loads, Element joints/connections data
 
 ### What other use cases are waiting for your use case to complete?
-Code Validation, LCA, Fire
+Code Validation, LCA, Fire since code validation will ensure that current materials and standards are in compliance. LCA will finalize the materials to be used in the building, which is an essential component to influence the structural design of the building. Lastly, fire safety design can also be classified as a structural engineering design process; however, it uses a more holistic approach to design members. The output and the results of the fire safety design will finalize the materials and elements to be used in the project and will serve as an input to the structural design and analysis process
