@@ -21,7 +21,7 @@ Finding lengths of various Ifc element arrays, calling a Ifc file to extract inf
 To elaborate: 
 1. .by_type() functions were access elements in the model and len() was used to count the number of elements in each array
 2. .IsDefined, IfcRelDefinesByProperties, IfcPropertySet is used to access property sets associated with each element in the model
-3. .IsDefined, RelatingPropertyDefinition.HasProperties was used to access specific properties such as lengths, width etc. for beam elements
+3. .IsDefined, RelatingPropertyDefinition.HasProperties was used to access specific properties such as lengths, widths etc. for various elements defined earlier
 4. IfcStore is used to access information of the BIM project currently the user is working with 
 
 	
@@ -32,7 +32,7 @@ Structural Analysis and Code Validation
 Primarily, the following elements will serve as adequate inputs for Structural Use Case: Beams, Columns, Walls, Slabs & Roof
 
 ### What (use cases) need to be done before you can start your use case?
-Architectual IFC model
+Architectual IFC model, Code Validation, LCA, Fire-Safety 
 
 ### What is the input data for your use case?
 Dimensions of the structural elements, Material usage of various elements, Location of the structural elements, Load Data such as wind, gravity, seismic and live loads, Element joints/connections data
