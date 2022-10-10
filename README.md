@@ -2,7 +2,6 @@
 ## Group Members
 #### 1. Umair Abid Mughal
 #### 2. Hajar Benjdya
-#### 3. Eloise Catherine Helene Birkeland
 
 ## Question 2: Markdown File describing our Use Case
 
